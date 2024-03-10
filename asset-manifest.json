@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/daconta/static/css/main.12fce010.css",
+    "main.js": "/daconta/static/js/main.6599267f.js",
+    "static/js/592.cbe8a983.chunk.js": "/daconta/static/js/592.cbe8a983.chunk.js",
+    "static/media/felix.jpg": "/daconta/static/media/felix.78f92245c5b79236545e.jpg",
+    "static/media/daconta-b.png": "/daconta/static/media/daconta-b.04e7c649b3dacd240777.png",
+    "static/media/anpc.png": "/daconta/static/media/anpc.2fcdce64647349139895.png",
+    "static/media/promote.jpg": "/daconta/static/media/promote.7793edbd22589b30360a.jpg",
+    "static/media/digitalmarketing.png": "/daconta/static/media/digitalmarketing.39ad1889011ef227d6fb.png",
+    "static/media/website.jpg": "/daconta/static/media/website.82b01e1b7a167b6982b6.jpg",
+    "static/media/globalmarketing.png": "/daconta/static/media/globalmarketing.831ad3dcabf03b25c705.png",
+    "static/media/web-site-2.png": "/daconta/static/media/web-site-2.fa21ed2d41a2855cfdd0.png",
+    "static/media/web-site-8.png": "/daconta/static/media/web-site-8.3845a6b1b5d574dbf2a0.png",
+    "static/media/web-site-1.png": "/daconta/static/media/web-site-1.ad5ac9f61e5429ac16a6.png",
+    "static/media/web-site-6.png": "/daconta/static/media/web-site-6.6b1f59eaefecf0b18557.png",
+    "static/media/web-site-3.png": "/daconta/static/media/web-site-3.3f13955c94573a5ac3c8.png",
+    "static/media/website.png": "/daconta/static/media/website.f93340804650b20d3f77.png",
+    "static/media/web-site-7.png": "/daconta/static/media/web-site-7.4d281909432675db4fc1.png",
+    "static/media/web-site-5.png": "/daconta/static/media/web-site-5.19d3687d05e17a50382c.png",
+    "static/media/anpc-sol.png": "/daconta/static/media/anpc-sol.bdf67d6e9c9f5cdc47b1.png",
+    "index.html": "/daconta/index.html",
+    "main.12fce010.css.map": "/daconta/static/css/main.12fce010.css.map",
+    "main.6599267f.js.map": "/daconta/static/js/main.6599267f.js.map",
+    "592.cbe8a983.chunk.js.map": "/daconta/static/js/592.cbe8a983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12fce010.css",
+    "static/js/main.6599267f.js"
+  ]
+}
