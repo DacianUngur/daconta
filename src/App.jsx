@@ -23,6 +23,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/daconta" element={<Homepage />} />
           <Route
             path="/websiteurihotelurisipensiuni"
             element={<ProductsWbsHotels />}
