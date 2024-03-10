@@ -23,7 +23,7 @@ const featuredProducts = [
     title: "Élégance Culinaire®",
     numberReviews: 153,
     category: "categoria restaurante",
-    price: 279,
+    price: 289,
     rating: 4,
   },
   {
