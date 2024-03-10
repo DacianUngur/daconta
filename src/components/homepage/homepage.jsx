@@ -13,7 +13,9 @@ function Homepage() {
       <Paragraph />
       <Imageandtext />
       <Paragraphlast />
-      <FeaturedContentProducts />
+      <div className="width-center">
+        <FeaturedContentProducts />
+      </div>
     </div>
   );
 }

@@ -2,3 +2,7 @@ div {
   display: flex;
   flex-direction: column;
 }
+.width-center {
+  width: 90%;
+  align-self: center;
+}
