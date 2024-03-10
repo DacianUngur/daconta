@@ -13,7 +13,7 @@ const featuredProducts = [
     imageUrl: Image1,
     title: "Refined Rendezvous®",
     numberReviews: 75,
-    category: "categoria pensiuni / hoteluri",
+    category: "pensiuni / hoteluri",
     price: 299,
     rating: 5,
   },
@@ -22,7 +22,7 @@ const featuredProducts = [
     imageUrl: Image2,
     title: "Élégance Culinaire®",
     numberReviews: 153,
-    category: "categoria restaurante",
+    category: "restaurante / terase",
     price: 289,
     rating: 4,
   },
@@ -31,7 +31,7 @@ const featuredProducts = [
     imageUrl: Image3,
     title: "Nobilis Retreat®",
     numberReviews: 94,
-    category: "categoria pensiuni / hoteluri",
+    category: "pensiuni / hoteluri",
     price: 359,
     rating: 5,
   },
@@ -40,7 +40,7 @@ const featuredProducts = [
     imageUrl: Image4,
     title: "Majestic Discovery®",
     numberReviews: 452,
-    category: "categoria atracții turistice",
+    category: "atracții turistice",
     price: 559,
     rating: 4,
   },
@@ -56,7 +56,7 @@ function FeaturedContentProducts() {
   return (
     <div>
       <div className="title-featrued">
-        <h1>Cele mai căutate</h1>
+        <h3>Cele mai căutate</h3>
 
         <Link
           className="button-style center-cards center"

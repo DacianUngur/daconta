@@ -10,10 +10,16 @@
 .center {
   margin-left: auto;
 }
+.title-featrued h3 {
+  margin: 0;
+}
 
 @media (max-width: 780px) {
   .title-featrued {
     align-self: auto;
     width: 100%;
+  }
+  .button-style {
+    font-size: 15px;
   }
 }
