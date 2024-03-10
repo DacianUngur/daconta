@@ -27,8 +27,8 @@ function ProductsWbsRestaurants() {
       <h1>Website-uri pentru Restaurante</h1>
       <p className="paragraph-products">
         Descoperă puterea unei prezențe online remarcabile cu serviciile noastre
-        de creare website-uri pentru hoteluri. Prezentăm hotelul tău în cel mai
-        bun mod cu galerii foto de înaltă calitate și tururi virtuale
+        de creare website-uri pentru restaurante. Prezentăm locația tău în cel
+        mai bun mod cu galerii foto de înaltă calitate și tururi virtuale
         interactive.
       </p>
       <div className="cards-display">

@@ -16,14 +16,12 @@ const Navigation = () => {
 
     window.addEventListener("resize", handleResize);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const handleNavItemClick = () => {
-    // Inchide meniul pentru ecranele mici
     if (screenWidth < 780) {
       document.querySelector(".navbar-toggler").click();
     }
@@ -79,7 +77,7 @@ const Navigation = () => {
                 <NavDropdown.Divider />
                 <NavDropdown.Item
                   as={Link}
-                  to={"/produse/serviciudepromovare"}
+                  to={"/abonamentepromovare"}
                   onClick={handleNavItemClick}
                 >
                   Serviciile de promovare

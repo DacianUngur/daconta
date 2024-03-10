@@ -37,12 +37,13 @@ function App() {
           />
 
           <Route path="/desprenoi" element={<Desprenoi />} />
+          <Route path="/daconta" element={<Homepage />} />
           <Route path="/sepoate" element={<Sepoate />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/produse/:ProductId" element={<ProductDetails />} />
           <Route path="/toateprodusele" element={<AllProducts />} />
           <Route
-            path="/produse/serviciudepromovare"
+            path="/abonamentepromovare"
             element={<Abomanentspromoting />}
           />
         </Routes>

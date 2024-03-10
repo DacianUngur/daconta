@@ -30,9 +30,12 @@ function Imageandtext() {
           <p>
             Folosim tehnici avansate de publicitate online pentru a vă aduce în
             fața audienței targetate, asigurând un randament investițional
-            ridicat pentru fiecare dolar cheltuit în campanii publicitare.
+            ridicat pentru fiecare euro cheltuit în campanii publicitare.
           </p>
-          <Link className="button-style button-width" to={"/toateprodusele"}>
+          <Link
+            className="button-style button-width"
+            to={"/abonamentepromovare"}
+          >
             MAI MULTE DETALII
           </Link>
         </div>

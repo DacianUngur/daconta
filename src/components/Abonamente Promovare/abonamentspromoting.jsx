@@ -6,6 +6,7 @@ import ButtonOrder from "../button order/buttonorder";
 import "./abonamentpromotion.css";
 
 function Abomanentspromoting() {
+  window.scrollTo(0, 0);
   return (
     <div className="page-product-promotion">
       <h1>Abonamente Promovare Online</h1>
