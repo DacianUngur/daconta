@@ -1,0 +1,72 @@
+.reviews-container {
+  width: 90%;
+  margin: 15px auto 70px;
+  text-align: left;
+}
+
+.rating-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews-container ul {
+  list-style: none;
+}
+.review-item {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  font-style: italic;
+  color: #555;
+}
+
+.add-review-form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-colum {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #c28b44;
+  border-radius: 4px;
+}
+
+button {
+  width: 250px;
+  align-self: center;
+  background-color: #c28b44;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(212, 159, 89);
+}

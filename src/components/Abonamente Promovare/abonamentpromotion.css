@@ -1,0 +1,31 @@
+.page-product-promotion {
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  text-align: left;
+  gap: 30px;
+}
+
+.page-product-promotion p {
+  font-size: 20px;
+}
+
+.page-product-promotion .section-two-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagebanner {
+  width: 70%;
+  align-self: center;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.last-p {
+  margin-bottom: 150px;
+}

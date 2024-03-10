@@ -1,0 +1,33 @@
+.banner-element {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.443)),
+    url("../imagini/felix.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.banner-element p {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.banner-element h1 {
+  font-size: 70px;
+}
+
+.banner-element .banner-link {
+  margin-top: 15px;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  border: 1px white solid;
+  padding: 10px;
+  background-color: none;
+}

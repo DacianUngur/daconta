@@ -1,0 +1,86 @@
+.overlay {
+  /* Stilurile pentru suprapunere */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  /* Stilurile pentru containerul formularului */
+  width: 70%;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h2 {
+  /* Stilurile pentru titlul formularului */
+  color: #333;
+}
+
+.close-button {
+  /* Stilurile pentru butonul de închidere */
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.form-container form button {
+  width: auto;
+  padding: 10px 70px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.line-form-checkout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.form-container h4 {
+  margin-top: 20px;
+}
+
+.line-form-checkout label {
+  width: 50%;
+}
+.form-container form label {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-checkout {
+  width: 300px;
+
+  margin-bottom: 10px;
+}
+.details-checkout {
+  display: flex;
+  align-items: center;
+}
+.bold {
+  font-weight: bold;
+}
+.button-main-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

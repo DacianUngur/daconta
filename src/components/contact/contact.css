@@ -1,0 +1,19 @@
+.contact-page {
+  display: flex;
+  align-self: center;
+  text-align: left;
+  width: 80%;
+}
+
+.contact-page h1 {
+  font-weight: 400;
+  margin: 50px 0;
+}
+
+.bold-text-p {
+  font-weight: bold;
+}
+
+.smal-margin {
+  margin-bottom: 0;
+}

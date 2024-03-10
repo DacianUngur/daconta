@@ -1,0 +1,78 @@
+.navigation {
+  margin-left: auto;
+}
+
+.navigation-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+  padding: 0;
+}
+
+.navigation-list li {
+  color: black;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px black solid;
+}
+
+.navigation-toggler-icon {
+  cursor: pointer;
+}
+
+.mr-auto {
+  color: black;
+  margin-left: auto;
+}
+
+/* Stil pentru meniul de navigare pe dispozitive mobile */
+@media (max-width: 780px) {
+  .navbar {
+    margin-left: auto;
+    width: 70px;
+  }
+  .navbar-toggler-icon {
+    border: none;
+    background-color: transparent;
+    width: 60px; /* Adjust the width to your preference */
+    height: 5px; /* Adjust the height to your preference */
+    margin: 6px 0 6px auto;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+  }
+
+  .navbar-collapse {
+    font-size: 25px;
+    width: 310px;
+    background-color: #fff; /* Background color for mobile menu */
+    position: absolute;
+    top: 56px; /* Adjust the top position based on your header's height */
+    left: -50;
+    right: 0;
+    border-top: 1px solid #ddd; /* Border between header and menu */
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 15px 20px; /* Adjust padding based on your design */
+    color: #333; /* Menu item text color */
+    font-size: 20px;
+    font-weight: 0;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #f8f9fa; /* Hover background color */
+  }
+
+  .dropdown-menu .dropdown-item {
+    font-size: 20px;
+  }
+}
