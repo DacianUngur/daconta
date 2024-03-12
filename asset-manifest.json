@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daconta/static/css/main.6a8159fd.css",
-    "main.js": "/daconta/static/js/main.4f45bd07.js",
+    "main.css": "/daconta/static/css/main.50e2ff56.css",
+    "main.js": "/daconta/static/js/main.344d9338.js",
     "static/js/592.cbe8a983.chunk.js": "/daconta/static/js/592.cbe8a983.chunk.js",
     "static/media/felix.jpg": "/daconta/static/media/felix.78f92245c5b79236545e.jpg",
     "static/media/daconta-b.png": "/daconta/static/media/daconta-b.04e7c649b3dacd240777.png",
@@ -20,12 +20,12 @@
     "static/media/web-site-5.png": "/daconta/static/media/web-site-5.19d3687d05e17a50382c.png",
     "static/media/anpc-sol.png": "/daconta/static/media/anpc-sol.bdf67d6e9c9f5cdc47b1.png",
     "index.html": "/daconta/index.html",
-    "main.6a8159fd.css.map": "/daconta/static/css/main.6a8159fd.css.map",
-    "main.4f45bd07.js.map": "/daconta/static/js/main.4f45bd07.js.map",
+    "main.50e2ff56.css.map": "/daconta/static/css/main.50e2ff56.css.map",
+    "main.344d9338.js.map": "/daconta/static/js/main.344d9338.js.map",
     "592.cbe8a983.chunk.js.map": "/daconta/static/js/592.cbe8a983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a8159fd.css",
-    "static/js/main.4f45bd07.js"
+    "static/css/main.50e2ff56.css",
+    "static/js/main.344d9338.js"
   ]
 }
