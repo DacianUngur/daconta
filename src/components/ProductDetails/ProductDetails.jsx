@@ -10,7 +10,6 @@ import FeaturedContentProducts from "../featured products/featured";
 import Reviews from "../reviews/reviews";
 
 export default function ProductDetails() {
-  window.scrollTo(0, 0);
   const [Product, setProduct] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({
@@ -19,45 +18,35 @@ export default function ProductDetails() {
     company: "",
     email: "",
   });
-  const { ProductId } = useParams();
+  const { productId } = useParams();
 
   const fetchData = async () => {
-    // Try fetching data from fetchProductById
     const { isOk: isHotelProductOk, data: hotelProductData } =
-      await fetchProductById(ProductId);
-
-    // If fetchProductById is successful, set the product and return
+      await fetchProductById(productId);
     if (isHotelProductOk) {
       setProduct(hotelProductData);
       return;
     }
-
-    // Try fetching data from fetchProductById
     const { isOk: isAtractionProductOk, data: atractionProductData } =
-      await fetchProductAtractionsById(ProductId);
+      await fetchProductAtractionsById(productId);
 
-    // If fetchProductById is successful, set the product and return
     if (isAtractionProductOk) {
       setProduct(atractionProductData);
       return;
     }
-
-    // If fetchProductById fails, try fetching data from fetchProductRestaurantById
     const { isOk: isRestaurantProductOk, data: restaurantProductData } =
-      await fetchProductRestaurantById(ProductId);
-
-    // If fetchProductRestaurantById is successful, set the product
+      await fetchProductRestaurantById(productId);
     if (isRestaurantProductOk) {
       setProduct(restaurantProductData);
     } else {
-      // If both fetchProductById and fetchProductRestaurantById fail, set the product to null
       setProduct(null);
     }
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     fetchData();
-  }, []);
+  }, [productId]);
   if (!Product) {
     return <div> Produsul nu este disponibil</div>;
   }

@@ -41,7 +41,7 @@ function App() {
           <Route path="/daconta" element={<Homepage />} />
           <Route path="/sepoate" element={<Sepoate />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/produse/:ProductId" element={<ProductDetails />} />
+          <Route path="/produse/:productId" element={<ProductDetails />} />
           <Route path="/toateprodusele" element={<AllProducts />} />
           <Route
             path="/abonamentepromovare"
