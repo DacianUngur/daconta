@@ -11,14 +11,14 @@ import Abomanentspromoting from "./components/Abonamente Promovare/abonamentspro
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import AllProducts from "./components/All products/allproducts";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
         <Routes>
@@ -50,7 +50,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
